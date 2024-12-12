@@ -1,0 +1,31 @@
+cadena [10]estudiantes, andres,menu, salir
+cadena [5] calificacion
+entero numestudiante, opcion1, opcion2, i, escimapromedio
+inicio
+escriba " ingrese el numero de estudiaantes "
+lea numestudiante
+para i <- 1 hasta numestudiante haga 
+llamar nueva_linea
+repita
+escriba " ingrese la calificacion del estudiante "
+lea calificacion [i] hasta calificaciion [i]>= 0) y ( calificacion [1]<=100
+fin para
+llamar nueva_linea
+si numestudiante= 0 entonces
+escriba " no se han ingresado calificacion " sino 
+llamar nueva_linea
+suma =0 para i= 1 hasta numestudiante haga (suma= + calificacion[i]) promedio=suma / numestudiante
+escriba " el promedio de las calificaciones es ",promedio 2:2
+fin 
+fin
+inicio
+si numestudiante= 0 entonces
+escriba " no se ha ingresado calificacion "
+sino 
+llamar nueva_linea
+escimapromedio=0 patai = 1 hasta numestudiante haga si calificaciones[i]>promedio entonces escimapromedio= encimapromedio + 1
+escriba (" hay escimapromedio ", 'calificaciones por encima del promedio')
+fin
+fin
+escribir " soliendo de la base "
+fin
